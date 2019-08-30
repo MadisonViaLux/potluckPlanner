@@ -54,7 +54,9 @@ function App() {
       <EventContext.Provider value={{events}}>
        <UserContext.Provider value={{users}}>
 
-        <Route exact path='/' component={Links} />
+        {/* <Route exact path='/' component={Links} /> */}
+
+        <Route exact path='/' component={SignUp} />
 
           <Route exact path="/users/register" component={SignUp} />
 
