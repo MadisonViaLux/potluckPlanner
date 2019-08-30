@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
+import { Link } from "react-router-dom";
 
 
 const Header = props => {
@@ -9,11 +10,11 @@ const Header = props => {
 
       return (
             <div className="header">
-                  <div className="icon">
+                  <a className="icon" href='https://vishalicious213.github.io/buildWeek1-Potluck-Planner/index.html'>
                         
                         <h1 className="heading">Potluck<i className="fas fa-utensils">
                         </i> Planner</h1>
-                  </div>
+                  </a>
                   
                   <Button negative onClick={() => {
                         localStorage.removeItem("token");
