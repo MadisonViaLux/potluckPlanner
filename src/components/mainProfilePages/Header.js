@@ -10,7 +10,7 @@ const Header = props => {
 
       return (
             <div className="header">
-                  <a className="icon" href='https://vishalicious213.github.io/buildWeek1-Potluck-Planner/index.html'>
+                  <a className="icon" href='https://potluck-party-planner-fe.now.sh/'>
                         
                         <h1 className="heading">Potluck<i className="fas fa-utensils">
                         </i> Planner</h1>
