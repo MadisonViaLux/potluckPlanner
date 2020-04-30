@@ -8,7 +8,7 @@ const MyEvents = (props) => {
       
       const {events}  = useContext(EventContext)
       
-      console.log(events)
+      // console.log(events)
       
       if(events){
             return(

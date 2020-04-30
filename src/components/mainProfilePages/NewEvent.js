@@ -5,7 +5,7 @@ import {axiosAuth} from '../axios/axiosAuth'
 
 const NewEvent = (props) => {
 
-  console.log(props)
+  // console.log(props)
 
   const[newEvent, setNewEvent] = useState(
     {
